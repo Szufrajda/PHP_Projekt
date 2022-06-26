@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,inital-scale=1.0">
+
+    <!--BOOSTRAP CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--JAVAscript-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Szuflix | Streetwear</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Owl Carousel JAVAscript file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--isotope plugin cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--custom JAVAscript-->
+    <script src="index.js"></script>
+</head>
+<body>
+<!--start header-->
+<header id="header">
+    <div class="strip d-flex justify-content-between px-4 py-1 color-primary-bg">
+        <p class="font-joan font-size-12 text-black-50 m-O">SZUFLIX STRORE ADDRESS</p>
+        <div class="font-joan font-size-14">
+            <a href="#" class="px-3 border-right border-left text-light">Login</a>
+            <a href="#" class="px-3 border-right text-light">Lista życzeń</a>
+        </div>
+    </div>
+
+    <!--primary naviagtion-->
+    <nav class="navbar navbar-expand-lg navbar-light color-second-bg">
+        <a href="#"><img src="../assets/a2.png" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto font-titillium_web">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Strona główna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kategorie <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produkty <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Wkrótce</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">O Nas</a>
+                </li>
+            </ul>
+            <form action="#" class="font-size-14 font-oswald">
+                <a href="#" class="py-2 rounded-pill color-primary-bg">
+                    <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                    <span class="px-3 py-2 rounded-pill text-dark bg-light">O</span>
+                </a>
+            </form>
+        </div>
+    </nav>
+    <!--end navigation-->
+
+</header>
+<!--end header-->
+
+
+<!--start main site-->
+<main id="main-site">
+
+    <!--product-->
+    <section id="product" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="../assets/shirt1.jpg" alt="product" class="img-fluid">
+                    <div class="form-row pt-4 font-size-16 font-titillium_web">
+                        <div class="col">
+                            <button type="submit" class="btn btn-danger form-control">Kup teraz</button>
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-warning form-control">Dodaj do koszyka</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 py-5">
+                    <h4 class="font-titillium_web font-size-20">T-shirt Electric Feel</h4>
+                    <small>QUIKSILVER</small>
+                    <div class="d-flex">
+                        <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                        </div>
+                        <a href="#" class="px-2 font-oswald font-size-14">264 oceny</a>
+                    </div>
+                    <hr class="m-0">
+                    <!---    product price       -->
+                    <table class="my-3">
+                        <tr class="font-oswald font-size-14">
+                            <td>Dostawa: </td>
+                            <td class="font-size-14 text-danger"><span>10.00 zł</span></td>
+                        </tr>
+                        <tr class="font-oswald font-size-16">
+                            <td>Cena: </td>
+                            <td class="font-size-20 text-danger"><span>79.90</span> zł<small class="text-dark font-size-12">&nbsp;&nbsp;z VAT</small></td>
+                        </tr>
+                    </table>
+                    <!---end product price-->
+
+                    <!--    #policy -->
+                    <div id="policy">
+                        <div class="d-flex">
+                            <div class="return text-center mr-5">
+                                <div class="font-size-20 my-2 color-second">
+                                    <img src="../assets/brand_new.png" class="border rounded-pill">
+<!--                                    <span class="fas fa-retweet border p-3 rounded-pill"></span>-->
+                                </div>
+                                <a href="#" class="font-oswald font-size-12">NOWOŚĆ!</a>
+                            </div>
+                            <div class="return text-center mr-5">
+                                <div class="font-size-20 my-2 color-second">
+                                    <img src="../assets/bestseller.png" class="border rounded-pill">
+<!--                                    <span class="fas fa-truck  border p-3 rounded-pill"></span>-->
+                                </div>
+                                <a href="#" class="font-oswald font-size-12">BESTSELLER!</a>
+                            </div>
+                            <div class="return text-center mr-5">
+                                <div class="font-size-20 my-2 color-second">
+                                    <img src="../assets/fast_delivery.png" class="border rounded-pill">
+<!--                                    <span class="fas fa-check-double border p-3 rounded-pill"></span>-->
+                                </div>
+                                <a href="#" class="font-oswald font-size-12">SZYBKA DOSTAWA!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end policy-->
+                    <hr>
+
+                    <!-- order-details -->
+                    <div id="order-details" class="font-titillium_web d-flex flex-column text-dark">
+                        <small>Termin dostawy: 29 Czerwiec - 1 Lipiec</small>
+                        <small><i class="fas fa-map-marker-alt color-primary"></i>&nbsp;&nbsp;Dostawa na terenie całego kraju</small>
+                    </div>
+                    <!-- end order-details -->
+
+                    <div class="row">
+                        <div class="col-6">
+                            <hr>
+
+
+                            <!--size-->
+                            <div class="color my-3">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-oswald"><br>Rozmiar:</h6>
+                                    <div class="p-2 rounded-circle"><button class="btn font-size-16">S</button></div>
+                                    <div class="p-2 rounded-circle"><button class="btn font-size-16">M</button></div>
+                                    <div class="p-2 rounded-circle"><button class="btn font-size-16">L</button></div>
+                                    <div class="p-2 rounded-circle"><button class="btn font-size-16">XL</button></div>
+                                </div>
+                            </div>
+                            <!--end size-->
+                        </div>
+
+                        <!--product qty section-->
+                        <div class="col-6">
+                            <div class="qty d-flex">
+                                <h6 class="font-oswald font-size-16">Ilość:</h6>
+                                <div class="px-4 d-flex font-oswald">
+                                    <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                                    <input type="text" data-id="pro1" class="qty_input border px-2 w-50 bg-light" disabled value="1" placeholder="1">
+                                    <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end product qty section-->
+
+                        <!-- warehouse -->
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-oswald px-3">Na magazynie:</h6>
+                            <a href="#" class="font-oswald font-size-16">Dostępny</a>
+                        </div>
+                        <!--end warehouse-->
+                    </div>
+
+
+
+                </div>
+                <div class="col-12">
+<br>
+                    <br>
+                    <h6 class="font-titillium_web font-size-20">Opis Produktu</h6>
+                    <hr>
+                    <p class="font-joan font-size-14">Krój koszulki: regular fit<br>
+                        Materiał: 100% bawełna<br>
+                        Klasyczny crewneck<br>
+                        Elastyczne wykończenie dekoltu zapobiega szybkiemu rozciąganiu materiału<br>
+                        Krótkie rękawy<br>
+                        Nadruk na piersi i plecach<br>
+                        Kod producenta: EQYZT06694-KVJ0<br>
+                        ID 314666</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end product-->
+
+            <!--top sale-->
+            <section id="top-sale">
+        <div class="container py-5">
+            <h4 class="font-titillium_web font-size-20">Najpopularniejsze</h4>
+            <hr>
+            <!--owl carousel-->
+            <div class="owl-carousel owl-theme">
+                <div class="item py-2">
+                    <div class="product font-joan">
+                        <a href="#"><img src="../assets/Boba_shirt.jpg" alt="product1" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>T-shirt STAR WARS<br>Boba Fett Special Edition</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$59.90</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Dodaj do koszyka</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item py-2">
+                    <div class="product font-joan">
+                        <a href="#"><img src="../assets/shirt1.jpg" alt="product1" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>T-shirt QUIKSILVER<br>Electric Feel</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$79.90</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Dodaj do koszyka</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item py-2">
+                    <div class="product font-joan">
+                        <a href="#"><img src="../assets/polo2.jpg" alt="product1" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>Polo KOKA<br>Eclipse</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fa fa-star-half"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$59.90</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Dodaj do koszyka</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item py-2">
+                    <div class="product font-joan">
+                        <a href="#"><img src="../assets/shirt3.jpg" alt="product1" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>T-shirt ADIDAS<br>trf A33</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$59.90</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Dodaj do koszyka</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item py-2">
+                    <div class="product font-joan">
+                        <a href="#"><img src="../assets/polo1.jpg" alt="product1" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>Polo PROSTO<br>Mods</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fa fa-star-half"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$69.90</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Dodaj do koszyka</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item py-2">
+                    <div class="product font-joan">
+                        <a href="#"><img src="../assets/shorts1.jpg" alt="product1" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>Shorty MASS<br>Dnm</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$39.90</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Dodaj do koszyka</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item py-2">
+                    <div class="product font-joan">
+                        <a href="#"><img src="../assets/shirt2.jpg" alt="product1" class="img-fluid"></a>
+                        <div class="text-center">
+                            <h6>T-shirt HUF<br>Nug Man</h6>
+                            <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fa fa-star-half"></i></span>
+                            </div>
+                            <div class="price py-2">
+                                <span>$69.90</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Dodaj do koszyka</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end owl carousel-->
+        </div>
+    </section>
+            <!--END top sale-->
+
+</main>
+<!--end main site-->
+
+
+<!--start footer-->
+<footer id="footer" class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-12">
+                <h4 class="font-oswald font-size-20">SZUFLIX | Streetwear</h4>
+                <p class="font-size-14 font-rale text-white-50">Strona powstała w celu zdania z zajęć PHP</p>
+            </div>
+            <div class="col-lg-4 col-12">
+                <h4 class="font-joan font-size-20">Newslatter</h4>
+                <form class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="*email">
+                    </div>
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary mb-2">Subskrybuj</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-2 col-12">
+                <h4 class="font-joan font-size-20">Informacje</h4>
+                <div class="d-flex flex-column flex-wrap">
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">O Nas</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Informacje o dostawie</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Polityka prywatności</a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-12">
+                <h4 class="font-joan font-size-20">Użytkownik</h4>
+                <div class="d-flex flex-column flex-wrap">
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Moje konto</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Historia zamówień</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Lista życzeń</a>
+                    <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newslatter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright text-center bg-dark text-white py-2">
+    <p class="font-rale font-size-14">&copy; Copyrights 2022. Desing by <a href="#" class="color-second">Jakub Szufrajda</a></p>
+</div>
+<!--end footer-->
+
+
+</body>
+</html>
