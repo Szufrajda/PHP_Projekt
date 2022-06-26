@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&family=Oswald&family=Titillium+Web&display=swap"); /* global classes */
+button, button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.font-oswald {
+    font-family: "Oswald", cursive;
+}
+
+.font-titillium_web {
+    font-family: "Titillium Web", cursive;
+}
+
+.font-joan {
+    font-family: "Joan", cursive;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.color-primary {
+    color: #006699;
+}
+
+.color-primary-bg {
+    background: #006699;
+}
+
+.color-second {
+    color: #99ccff;
+}
+
+.color-second-bg {
+    background: linear-gradient(to right, #000000 3%, #99ccff 47%);
+}
+
+.color-yellow-bg {
+    background: #00ff99;
+}
+
+/*# sourceMappingURL=style.css.map */
